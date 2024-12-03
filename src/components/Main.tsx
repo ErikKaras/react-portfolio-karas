@@ -12,9 +12,7 @@ function Main() {
             <a href="https://github.com/ErikKaras" target="_blank" rel="noreferrer">
               <GitHubIcon />
             </a>
-            <a href="https://www.linkedin.com/in/erikkaras" target="_blank" rel="noreferrer">
-              <LinkedInIcon />
-            </a>
+
           </div>
           <h1>Erik Karas</h1>
           <p>Tvůrce 3D interiérů</p>
@@ -22,9 +20,7 @@ function Main() {
           <div className="mobile_social_icons">
             <a href="https://github.com/ErikKaras" target="_blank" rel="noreferrer">
               <GitHubIcon />
-            </a>
-            <a href="https://www.linkedin.com/in/erikkaras" target="_blank" rel="noreferrer">
-              <LinkedInIcon />
+
             </a>
           </div>
         </div>
