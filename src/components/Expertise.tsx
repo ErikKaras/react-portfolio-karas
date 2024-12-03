@@ -1,10 +1,8 @@
 import React from "react";
-import '@fortawesome/free-regular-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faReact, faDocker, faPython } from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Bez nevyužitých importů
+import { faCouch, faHouse, faPaintRoller } from "@fortawesome/free-solid-svg-icons";
 import Chip from '@mui/material/Chip';
 import '../assets/styles/Expertise.scss';
-import { faCouch, faHouse, faPaintRoller } from "@fortawesome/free-solid-svg-icons";
 
 const labelsFirst = [
     "Blender",
@@ -62,7 +60,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faCouch} size="3x"/>
                     <h3>3D Interiéry pro FiveM (GTA V)</h3>
-                    <p>pecializuji se na tvorbu 3D interiérů pro modifikace FiveM, kde navrhuji realistické a funkční prostory pro hráče, které mohou být součástí herního světa. Vytvářím interiéry pro různé typy budov, jako jsou obchody, restaurace, kanceláře a další herní lokace.</p>
+                    <p>Specializuji se na tvorbu 3D interiérů pro modifikace FiveM, kde navrhuji realistické a funkční prostory pro hráče, které mohou být součástí herního světa. Vytvářím interiéry pro různé typy budov, jako jsou obchody, restaurace, kanceláře a další herní lokace.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Používané nástroje:</span>
                         {labelsThird.map((label, index) => (
