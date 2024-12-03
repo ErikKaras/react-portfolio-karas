@@ -45,7 +45,7 @@ function Contact() {
     //   );
     //   setName('');
     //   setEmail('');
-    //   setMessage('');
+    //   setMessage('')
     // }
   };
 
